@@ -1,0 +1,44 @@
+.sara{
+    display: flex;
+    padding: 6rem;
+    justify-content: space-between;
+}
+.left{
+    justify-content: space-between;
+    gap: 2%;
+}
+.lleft h2{
+    color: rgb(255, 170, 0);
+}
+.lleft h1{
+    color: rgb(8, 72, 2);
+    /* color: rgb(0, 0, 113); */
+    font-weight: bolder;
+}
+.lleft p{
+    color: grey;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+}
+.info img{
+    border-radius: 6px;
+    border: 0;
+    display: block;
+    background-color: rgba(189, 158, 236, 0.311);
+}
+.right img{
+    border-radius: 60% 60% 0 0;
+    padding-left: 2px;
+    object-fit: cover;
+    border: 10px solid rgba(112, 108, 82, 0.845);
+    /* border: 10px solid rgb(180, 179, 179); */
+}
+.boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
