@@ -1,0 +1,19 @@
+.sd{
+    display: flex;
+    justify-content: space-between;
+}
+.num{
+    color: aliceblue;
+    font-size: 2rem;
+}
+.yellow{
+    color: yellow;
+    font-size: 2rem;
+}
+.neeche p{
+    color: rgb(161, 160, 160);
+}
+.neeche{
+    display: flex;
+    flex-direction: column;
+}
