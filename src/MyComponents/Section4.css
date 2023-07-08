@@ -1,0 +1,21 @@
+.gov{
+    padding-right: 8rem;
+    padding-left: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.lft img{
+    border: 8px solid rgba(112, 108, 82, 0.845);
+    /* border: 8px solid rgb(184, 184, 184); */
+    border-radius: 60% 60% 0 0;
+    margin: auto;
+}
+.rgt h2{
+    color: rgb(255, 170, 0);
+}
+.rgt h1{
+    color: rgb(8, 72, 2);
+    /* color: rgb(0, 0, 113); */
+    font-weight: bolder;
+}
