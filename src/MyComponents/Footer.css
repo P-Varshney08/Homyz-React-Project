@@ -1,0 +1,15 @@
+.poora{
+    padding: 1rem 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.cntn{
+    color: rgb(8, 72, 2);
+    /* color: rgb(0, 0, 100); */
+}
+.cntn h1{
+    font-weight: bolder;
+}
+.cntn p{
+    color: grey;
+}
