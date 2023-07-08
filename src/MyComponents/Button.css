@@ -1,0 +1,15 @@
+.but{
+    padding: 5px 40px;
+    /* background-color: blue; */
+    background-color: rgb(255, 223, 12);
+    color: black;
+    font-weight: bold;
+    /* color: aliceblue; */
+    border-radius: 12px;
+}
+.but:hover{
+    font-size: 1.1rem;
+    /* padding: 6px 43px; */
+    transform: scale(1.02);
+    transition: 0.5s;
+}
