@@ -1,0 +1,37 @@
+.card{
+    padding: 5px;
+    max-width: 265px;
+    margin-top: 2rem;
+}
+.card img{
+    border-radius: 9px;
+}
+.card div{
+    display: flex;
+    justify-content: left;
+    gap: 4%;
+}
+.card div p{
+    color: rgb(255, 166, 0);
+    font-size: 22px;
+    font-weight: bold;
+}
+.card div span{
+    color: grey;
+    font-size: 22px;
+    font-weight: bold;
+}
+.card h2{
+    color: rgb(8, 72, 2);
+    /* color: rgb(0, 0, 113); */
+    font-weight: bolder;
+}
+.card p{
+    color: grey;
+    font-size: 12px;
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.4s;
+    background-color: rgba(159, 83, 230, 0.13);
+}
