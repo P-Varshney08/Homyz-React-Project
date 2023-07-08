@@ -1,0 +1,82 @@
+.room {
+    padding: 6rem;
+}
+.bts{
+    display: flex;
+    justify-content: space-between;
+}
+.head h2{
+    color: rgb(255, 170, 0);
+}
+.head h1{
+    color: rgb(8, 72, 2);
+    /* color: rgb(0, 0, 113); */
+    font-weight: bolder;
+}
+.btns{
+    display: block;
+    align-items: last baseline;
+    justify-content: space-between;
+}
+.btns button{
+    margin: 0.5rem;
+    padding: 0.4rem 0.7rem;
+    border: 0;
+    border-radius: 4px;
+    background-color: rgba(186, 144, 225, 0.199);
+    font-weight: bold;
+    color: rgb(0, 76, 255);
+    text-align: center;
+}
+.btns button:hover{
+    border: 1px solid rgb(165, 164, 164);
+    transform: scale(1.07);
+    box-shadow: 0px 5px 6px rgb(192, 189, 189);
+    background-color: aliceblue;
+}
+.mhnt{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    /* display: flex; */
+}
+
+
+
+
+
+.All{
+    display: flex;
+    gap:7%;
+    cursor: pointer;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.money{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: goldenrod;
+    margin-left: 20px;
+}
+.img{
+    border-radius: 12px;
+    margin: 5px;
+}
+.nam{
+    font-size: 35px;
+    color: rgb(3, 3, 113);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0 2px 2px ;
+    padding-bottom: 15px;
+    margin-left: 20px;
+}
+.collec:hover {
+    transform: scale(1.005);
+    background-color: rgba(153, 131, 169, 0.708);
+    width: 370px;
+    border-radius: 30px;
+    padding-left: 40px;
+    padding-top: 20px;
+    transition: 0.6s;
+    box-shadow: 2px 8px 10px rgba(87, 87, 87, 0.678);
+}
