@@ -1,0 +1,28 @@
+.box{
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 5px;
+    padding: 1rem;
+    width: 13rem;
+}
+.box:hover{
+    box-shadow: 1px 10px 10px rgba(189, 158, 236, 0.311);
+    transition: 0.4s;
+    transform: scale(1.03);
+}
+
+.bb{
+    width: 100%;
+    text-align: center;
+    color: rgb(8, 72, 2);
+    /* color: rgb(0, 128, 255); */
+    font-weight: bold;
+    border-radius: 6px;
+    border: 0;
+    padding: 0.4rem;
+    background-color: rgba(189, 158, 236, 0.311);
+}
+.bb:hover{
+    background-color: rgb(8, 72, 2);
+    /* background-color: rgb(0, 153, 255); */
+    color: aliceblue;
+}
